@@ -10,5 +10,5 @@ SOURCES += \
 RESOURCES += \
     Lzma2.qrc
 
-LIBS += -L$$DESTDIR -l$$qtLibraryTarget(Qtk5Core)
+LIBS += -L$$DESTDIR -l$$qtLibraryTarget(Qtk0Core)
 INCLUDEPATH += $$SRCROOT/Core

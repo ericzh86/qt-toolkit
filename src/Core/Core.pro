@@ -2,7 +2,7 @@ include(../Libraries.pri)
 
 QT -= gui
 DEFINES += QTK_CORE_LIB
-TARGET   = $$qtLibraryTarget(Qtk5Core)
+TARGET   = $$qtLibraryTarget(Qtk0Core)
 
 HEADERS += \
     QtkCoreGlobal.h
@@ -14,3 +14,4 @@ include(CxxListModel/CxxListModel.pri)
 include(LogStream/LogStream.pri)
 include(LogWriter/LogWriter.pri)
 include(Lzma2/Lzma2.pri)
+include(Safeguard/Safeguard.pri)
