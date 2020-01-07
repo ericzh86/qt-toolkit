@@ -9,8 +9,8 @@ typedef void (* QMessageHandler)(QtMsgType type,
                                  const QMessageLogContext &context,
                                  const QString &message);
 
-class Q_TKCORE_EXPORT QLogWriterPrivate;
-class Q_TKCORE_EXPORT QLogWriter : public QObject
+class QTK_CORE_EXPORT QLogWriterPrivate;
+class QTK_CORE_EXPORT QLogWriter : public QObject
 {
     Q_OBJECT
     Q_DECLARE_PRIVATE(QLogWriter)

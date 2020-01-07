@@ -5,8 +5,8 @@
 #include <QSharedDataPointer>
 #include "../QtkCoreGlobal.h"
 
-class Q_TKCORE_EXPORT QLzma2DecoderPrivate;
-class Q_TKCORE_EXPORT QLzma2Decoder : public QObject
+class QTK_CORE_EXPORT QLzma2DecoderPrivate;
+class QTK_CORE_EXPORT QLzma2Decoder : public QObject
 {
     Q_OBJECT
     Q_DECLARE_PRIVATE(QLzma2Decoder)

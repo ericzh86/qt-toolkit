@@ -17,8 +17,8 @@ struct QCxxListGuard
 {
 };
 
-class Q_TKCORE_EXPORT QCxxListModelPrivate;
-class Q_TKCORE_EXPORT QCxxListModel : public QAbstractListModel
+class QTK_CORE_EXPORT QCxxListModelPrivate;
+class QTK_CORE_EXPORT QCxxListModel : public QAbstractListModel
 {
     Q_OBJECT
     Q_DECLARE_PRIVATE(QCxxListModel)

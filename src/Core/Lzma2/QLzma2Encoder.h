@@ -7,8 +7,8 @@
 
 // class QLzma2EncoderOptions
 
-class Q_TKCORE_EXPORT QLzma2EncoderOptionsPrivate;
-class Q_TKCORE_EXPORT QLzma2EncoderOptions
+class QTK_CORE_EXPORT QLzma2EncoderOptionsPrivate;
+class QTK_CORE_EXPORT QLzma2EncoderOptions
 {
 public:
     QLzma2EncoderOptions(); // QLzma2EncoderOptions
@@ -28,8 +28,8 @@ private:
 
 // class QLzma2Encoder
 
-class Q_TKCORE_EXPORT QLzma2EncoderPrivate;
-class Q_TKCORE_EXPORT QLzma2Encoder : public QObject
+class QTK_CORE_EXPORT QLzma2EncoderPrivate;
+class QTK_CORE_EXPORT QLzma2Encoder : public QObject
 {
     Q_OBJECT
     Q_DECLARE_PRIVATE(QLzma2Encoder)

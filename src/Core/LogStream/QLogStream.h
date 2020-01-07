@@ -7,8 +7,8 @@
 
 // class QLogStream
 
-class Q_TKCORE_EXPORT QLogStreamPrivate;
-class Q_TKCORE_EXPORT QLogStream
+class QTK_CORE_EXPORT QLogStreamPrivate;
+class QTK_CORE_EXPORT QLogStream
 {
     Q_DECLARE_PRIVATE(QLogStream)
 
@@ -54,8 +54,8 @@ public:
 
 // class QLogStreamWriter
 
-class Q_TKCORE_EXPORT QLogStreamWriterPrivate;
-class Q_TKCORE_EXPORT QLogStreamWriter : public QLogStream
+class QTK_CORE_EXPORT QLogStreamWriterPrivate;
+class QTK_CORE_EXPORT QLogStreamWriter : public QLogStream
 {
     Q_DECLARE_PRIVATE(QLogStreamWriter)
 
@@ -81,8 +81,8 @@ public:
 
 // class QLogStreamReader
 
-class Q_TKCORE_EXPORT QLogStreamReaderPrivate;
-class Q_TKCORE_EXPORT QLogStreamReader : public QLogStream
+class QTK_CORE_EXPORT QLogStreamReaderPrivate;
+class QTK_CORE_EXPORT QLogStreamReader : public QLogStream
 {
     Q_DECLARE_PRIVATE(QLogStreamReader)
 

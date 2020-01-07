@@ -30,7 +30,7 @@ public:
     const QString &pipeName() const;
 
 public slots:
-    void createServer();
+    bool createServer();
     void createClient();
     void makeSnapshot();
 };

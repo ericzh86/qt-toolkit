@@ -18,8 +18,8 @@
 #include <QLoggingCategory>
 
 /*
-#include "OlSchedulerHost.h"
-#include "OlSchedulerNode.h"
+#include "QSchedulerHost.h"
+#include "QSchedulerNode.h"
 #include "OlStandardPaths.h"
 
 #include "OlRaven.h"
@@ -170,7 +170,7 @@ void basicMessageHandler(QtMsgType type,
     }
 
     /*
-    auto node = OlSchedulerNode::instance();
+    auto node = QSchedulerNode::instance();
     if (inst->encodeWriter) {
         qint16 size = 0;
         if (inst->streamWriter) {

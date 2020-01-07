@@ -7,8 +7,8 @@
 #include "QLogWriter.h"
 #include "../LogStream/QLogStream.h"
 
-class OlSchedulerHost;
-class OlSchedulerNode;
+class QSchedulerHost;
+class QSchedulerNode;
 
 class QLogWriterPrivate
 {

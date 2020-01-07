@@ -56,7 +56,7 @@ const QString &QSafeguard::pipeName() const
     return d->pipeName;
 }
 
-void QSafeguard::createServer()
+bool QSafeguard::createServer()
 {
     Q_D(QSafeguard);
 
@@ -82,11 +82,12 @@ void QSafeguard::createServer()
 
     if (!crashServer->Start()) {
         qWarning(lcSafeguard, "crash server start failed.");
-        return;
+        return false;
     }
 
     qInfo(lcSafeguard,  "crash server ready...");
     d->crashServer = crashServer;
+    return true;
 #else
     /*
     QString pipeName = QString::fromLatin1("\\\\.\\pipe\\") % d->pipeName;
@@ -112,6 +113,7 @@ void QSafeguard::createServer()
     qInfo(lcSafeguard,  "crash server ready...");
     d->crashServer = crashServer;
     */
+    return false;
 }
 
 void QSafeguard::createClient()
