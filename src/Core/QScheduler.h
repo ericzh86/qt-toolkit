@@ -1,7 +1,7 @@
 #ifndef QSCHEDULER_H
 #define QSCHEDULER_H
 
-#include "../QtkCoreGlobal.h"
+#include "QtkCoreGlobal.h"
 
 #include <functional>
 #include <QCoreApplication>

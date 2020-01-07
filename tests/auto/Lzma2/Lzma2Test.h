@@ -1,15 +1,15 @@
-#ifndef QTLZMA2TEST_H
-#define QTLZMA2TEST_H
+#ifndef LZMA2TEST_H
+#define LZMA2TEST_H
 
 #include <QtTest>
 
-class QtLzma2 : public QObject
+class Lzma2Test : public QObject
 {
     Q_OBJECT
 
 public:
-    QtLzma2();
-    virtual ~QtLzma2();
+    Lzma2Test();
+    virtual ~Lzma2Test();
 
 private:
     static QByteArray readFile(const QString &filename);
@@ -29,4 +29,4 @@ private:
     qint64     uncompressedSize;
 };
 
-#endif // QTLZMA2TEST_H
+#endif // LZMA2TEST_H

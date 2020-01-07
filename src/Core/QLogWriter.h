@@ -1,7 +1,7 @@
 #ifndef QLOGWRITER_H
 #define QLOGWRITER_H
 
-#include "../QtkCoreGlobal.h"
+#include "QtkCoreGlobal.h"
 
 #include <QObject>
 

@@ -1,19 +1,19 @@
-#include "qtlzma2test.h"
+#include "Lzma2Test.h"
 
 #include <QBuffer>
 
-#include "Lzma2/QLzma2Encoder.h"
-#include "Lzma2/QLzma2Decoder.h"
+#include "QLzma2Encoder.h"
+#include "QLzma2Decoder.h"
 
-QtLzma2::QtLzma2()
+Lzma2Test::Lzma2Test()
 {
 }
 
-QtLzma2::~QtLzma2()
+Lzma2Test::~Lzma2Test()
 {
 }
 
-QByteArray QtLzma2::readFile(const QString &filename)
+QByteArray Lzma2Test::readFile(const QString &filename)
 {
     QFile file(filename);
     if (file.open(QFile::ReadOnly)) {
@@ -23,7 +23,7 @@ QByteArray QtLzma2::readFile(const QString &filename)
     return QByteArray();
 }
 
-QSharedPointer<QFile> QtLzma2::openFile(const QString &filename)
+QSharedPointer<QFile> Lzma2Test::openFile(const QString &filename)
 {
     QSharedPointer<QFile> file(new QFile(filename));
     if (file->open(QFile::ReadWrite)) {
@@ -33,18 +33,18 @@ QSharedPointer<QFile> QtLzma2::openFile(const QString &filename)
     return nullptr;
 }
 
-void QtLzma2::initTestCase()
+void Lzma2Test::initTestCase()
 {
     license = readFile(":/testfiles/LICENSE");
     QLzma2Encoder::blockingEncode(license, encodedLicense, encodeProp);
     uncompressedSize = license.size();
 }
 
-void QtLzma2::cleanupTestCase()
+void Lzma2Test::cleanupTestCase()
 {
 }
 
-void QtLzma2::encodeWithInvalidParameters()
+void Lzma2Test::encodeWithInvalidParameters()
 {
     // static bool decode(QIODevice *in, QIODevice *out, uchar prop);
 
@@ -203,7 +203,7 @@ void QtLzma2::encodeWithInvalidParameters()
     } while (false);
 }
 
-void QtLzma2::decodeWithInvalidParameters()
+void Lzma2Test::decodeWithInvalidParameters()
 {
     // static bool decode(QIODevice *in, QIODevice *out, uchar prop);
 
@@ -373,4 +373,4 @@ void QtLzma2::decodeWithInvalidParameters()
     } while (false);
 }
 
-QTEST_APPLESS_MAIN(QtLzma2)
+QTEST_APPLESS_MAIN(Lzma2Test)

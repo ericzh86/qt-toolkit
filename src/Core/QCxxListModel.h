@@ -1,7 +1,7 @@
 #ifndef QCXXLISTMODEL_H
 #define QCXXLISTMODEL_H
 
-#include "../QtkCoreGlobal.h"
+#include "QtkCoreGlobal.h"
 #include <QAbstractListModel>
 
 #if defined(QT_TESTLIB_LIB)

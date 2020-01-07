@@ -4,7 +4,7 @@
 #include <QStringBuilder>
 #include <QLoggingCategory>
 
-Q_LOGGING_CATEGORY(lcSafeguard, "Ol.Safeguard")
+Q_LOGGING_CATEGORY(lcSafeguard, "QSafeguard")
 
 // class QSafeguard
 

@@ -3,7 +3,7 @@
 
 #include <QIODevice>
 #include <QSharedDataPointer>
-#include "../QtkCoreGlobal.h"
+#include "QtkCoreGlobal.h"
 
 // class QLzma2EncoderOptions
 

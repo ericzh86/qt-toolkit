@@ -9,12 +9,12 @@
 #include "QSchedulerHost.h"
 #include "QSchedulerNode.h"
 
-#include "../FastPaths/QFastPaths.h"
+#include "QFastPaths.h"
 
-#include "../Safeguard/QSafeguard.h"
-#include "../LogWriter/QLogWriter.h"
+#include "QSafeguard.h"
+#include "QLogWriter.h"
 
-Q_LOGGING_CATEGORY(lcScheduler, "Ol.Scheduler")
+Q_LOGGING_CATEGORY(lcScheduler, "QScheduler")
 
 static void createScheduler()
 {

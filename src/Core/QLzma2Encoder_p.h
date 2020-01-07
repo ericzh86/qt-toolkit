@@ -1,7 +1,7 @@
 #ifndef QLZMA2ENCODER_P_H
 #define QLZMA2ENCODER_P_H
 
-#include "../3rdparties/lzma/lzma/Lzma2Enc.h"
+#include "3rdparties/lzma/lzma/Lzma2Enc.h"
 
 #include "QLzma2Encoder.h"
 

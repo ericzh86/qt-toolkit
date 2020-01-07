@@ -5,10 +5,10 @@
 #include <QDataStream>
 #include <QLoggingCategory>
 
-#include "../Safeguard/QSafeguard.h"
-#include "../LogWriter/QLogWriter.h"
+#include "QSafeguard.h"
+#include "QLogWriter.h"
 
-Q_LOGGING_CATEGORY(lcSchedulingNode, "Ol.Scheduler")
+Q_LOGGING_CATEGORY(lcSchedulingNode, "QScheduler")
 
 // class QSchedulingNode
 

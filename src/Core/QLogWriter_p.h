@@ -5,7 +5,7 @@
 #include <QSharedPointer>
 
 #include "QLogWriter.h"
-#include "../LogStream/QLogStream.h"
+#include "QLogStream.h"
 
 class QSchedulerHost;
 class QSchedulerNode;

@@ -12,12 +12,12 @@
 #include <QStringBuilder>
 #include <QLoggingCategory>
 
-#include "../FastPaths/QFastPaths.h"
+#include "QFastPaths.h"
 
-#include "../Safeguard/QSafeguard.h"
-#include "../LogWriter/QLogWriter.h"
+#include "QSafeguard.h"
+#include "QLogWriter.h"
 
-Q_LOGGING_CATEGORY(lcSchedulerHost, "Ol.Scheduler")
+Q_LOGGING_CATEGORY(lcSchedulerHost, "QScheduler")
 
 // class QSchedulerHost
 

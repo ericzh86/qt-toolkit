@@ -1,7 +1,7 @@
 #ifndef QLOGSTREAM_H
 #define QLOGSTREAM_H
 
-#include "../QtkCoreGlobal.h"
+#include "QtkCoreGlobal.h"
 
 #include <QIODevice>
 

@@ -3,7 +3,7 @@
 #include <QtCore>
 #include <QtTest>
 
-#include "CxxListModel/QCxxListModel.h"
+#include "QCxxListModel.h"
 #include "CxxListModelTester.h"
 
 // Macros

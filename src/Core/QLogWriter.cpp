@@ -25,7 +25,7 @@
 #include "OlRaven.h"
 */
 
-Q_LOGGING_CATEGORY(lcLogWriter, "Ol.LogWriter")
+Q_LOGGING_CATEGORY(lcLogWriter, "QLogWriter")
 
 // class QLogWriter
 

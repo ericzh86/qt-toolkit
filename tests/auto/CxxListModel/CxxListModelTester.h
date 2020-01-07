@@ -3,7 +3,7 @@
 
 #include <QObject>
 
-#include "CxxListModel/QCxxListModel.h"
+#include "QCxxListModel.h"
 
 class ListModelTesterPrivate;
 class ListModelTester : public QObject

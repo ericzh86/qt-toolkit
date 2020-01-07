@@ -7,7 +7,7 @@
 #include <QTimer>
 #include <QLoggingCategory>
 
-Q_LOGGING_CATEGORY(lcSchedulingTask, "Ol.Scheduler")
+Q_LOGGING_CATEGORY(lcSchedulingTask, "QScheduler")
 
 // class QSchedulingTask
 

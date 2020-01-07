@@ -3,7 +3,7 @@
 
 #include <QIODevice>
 #include <QSharedDataPointer>
-#include "../QtkCoreGlobal.h"
+#include "QtkCoreGlobal.h"
 
 class QTK_CORE_EXPORT QLzma2DecoderPrivate;
 class QTK_CORE_EXPORT QLzma2Decoder : public QObject

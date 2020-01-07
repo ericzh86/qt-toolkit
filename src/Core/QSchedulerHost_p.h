@@ -9,7 +9,7 @@
 #include "QSchedulingNode.h"
 #include "QSchedulingTask.h"
 
-#include "../Safeguard/QSafeguard.h"
+#include "QSafeguard.h"
 
 class QSchedulerHostPrivate
 {

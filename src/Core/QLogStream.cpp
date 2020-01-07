@@ -17,7 +17,7 @@ char processSign[] = "qtlog.ps.0";
 using namespace QtLogStreamConstants;
 
 extern "C" {
-#include "../3rdparties/aes/aes_kokke.h"
+#include "3rdparties/aes/aes_kokke.h"
 }
 
 // class QLogStream

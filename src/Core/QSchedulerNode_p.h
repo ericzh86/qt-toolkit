@@ -7,7 +7,7 @@
 
 #include "QSchedulerNode.h"
 
-#include "../Safeguard/QSafeguard.h"
+#include "QSafeguard.h"
 
 // class QSchedulerWriteEvent
 
