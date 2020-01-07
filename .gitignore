@@ -50,3 +50,17 @@ compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
+
+# Visual Studio
+*.exp
+*.ilk
+*.lib
+*.pdb
+*.exe
+
+# macOS
+.DS_Store
+
+# Projects
+bin/
+lib/

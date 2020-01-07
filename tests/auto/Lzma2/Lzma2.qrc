@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>testfiles/LICENSE</file>
+    </qresource>
+</RCC>
