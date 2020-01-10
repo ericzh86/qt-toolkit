@@ -264,6 +264,10 @@ void QCxxListModel<T>::replace(int i, const T &t)
     QCXXLISTMODEL_ASSERT(i >= 0);
     QCXXLISTMODEL_ASSERT(i < QList<T>::count());
 
+    if (at(i) == t) {
+        return;
+    }
+
     QModelIndex x = index(i, 0);
     if (!x.isValid()) {
         return;
